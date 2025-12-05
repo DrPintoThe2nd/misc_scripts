@@ -1,0 +1,24 @@
+{
+	"COMMENT_FASTQ_DIRECTORIES": "Directories containing FASTQ & FastQC/MultiQC files.",
+	"raw_reads": "/mnt/z/Elgaria/fastq/",
+	"raw_fastqc": "/mnt/z/Elgaria/raw_fastqc/",
+	"COMMENT_CLEANED_REF_DIRECTORIES": "Directories containing reference genome files.",
+	"reference_dir": "/mnt/z/Elgaria/",
+	"COMMENT_MAPPED_FASTQ_DIRECTORIES": "Directories containing mapped read BAM files.",
+	"mapped_reads": "/mnt/z/Elgaria/mapped_reads/",
+	"COMMENT_CALLED_FASTQ_DIRECTORIES": "Directories containing called read vcf file(s).",
+	"called_reads": "/mnt/z/Elgaria/called_reads/",
+
+	"COMMENT_CLEANED_REFERENCE_GENOME": "Reference genome files.",
+	"target_genome":     "/mnt/z/Elgaria/GCF_023053635.1_rElgMul1.1.pri_genomic.fna",
+	"target_genome_fai": "/mnt/z/Elgaria/GCF_023053635.1_rElgMul1.1.pri_genomic.fna",
+
+	"COMMENT_SAMPLE_INFO_MAIN": "All samples to be analyzed as listed in their raw fastq prefixes.",
+	"samples_ALL": [
+		"Elgaria_F_255_CKDL240036518-1A_22JFKCLT4_L7",
+		"Elgaria_F_261_CKDL240036518-1A_22JFKCLT4_L7",
+		"Elgaria_M_257_CKDL240036517-1A_22JFKCLT4_L8",
+		"Elgaria_M_259_CKDL240036517-1A_22JFKCLT4_L8",
+		"Elgaria_M_266_CKDL240036518-1A_22JFKCLT4_L7"
+	]
+}
